@@ -1,0 +1,171 @@
+body{
+    font-family:Poppins;
+    font-weight: 400;
+}
+.navlinks{
+    position:relative;
+    left: 110px;
+}    
+
+
+a{
+    text-decoration: none;
+    color:rgb(68, 56, 56);
+    font-size: 18px;  
+}
+
+#cover{
+    padding:40px ;
+    padding-top: 90px;
+    background-color: #e3fbe6 ;
+    
+}
+#bknow{
+    padding: 8px 22px;
+    background-color: #70e000 ;
+    border-radius: 5px;
+    color:white;
+}
+#gettheorder{
+    padding: 8px 22px;
+    background-color: #70e000 ;
+    border-radius: 5px;
+    color:white;
+}
+#gettheorder:hover{
+
+    padding: 8px 22px;
+    border-color: #70e000;
+    border-radius: 5px;
+    border: 2px solid;
+    color:#70e000;
+    background-color: white;
+}
+#logo{
+    font-weight: 200px;
+    color: #70e000;
+    font-size: 190%;
+    position: relative;
+    left:0px; 
+}
+#covertext{
+    text-align: left;
+    align-items: left;
+    font-size: 50px;
+}
+#categories{
+    padding:50px;
+    text-align: center;
+    
+}
+#boxcontainer{
+    display: inline-flex;
+    margin:auto;
+
+}
+#firstbox{
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 170px;
+    border-radius: 20px;
+    padding:15px;
+    text-align: center;
+    background-color: #70e0003a;
+    
+}
+#firstbox:hover{
+    transform: scale(1.06);
+}
+#secondbox{
+    width: 400px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding:15px;
+    text-align: center;
+    background-color: #70e0003a;
+}
+#secondbox:hover{
+    transform: scale(1.06);
+}
+#thirdbox{
+    width: 400px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding:15px;
+    text-align: center;
+    background-color: #70e0003a;
+ 
+}
+#thirdbox:hover{
+    transform: scale(1.06);
+}
+#imagessection{
+    padding:40px ;
+    padding-left: 18px;
+    background-color: #e3fbe6 ;
+}
+#imagescontainer{
+
+    display: inline-flex;
+    margin-left: 10px;
+    
+}
+#firstimage,#secondimage, #Thirdimage, #fourthimage,#fifthimage,#siximage,#seventhimage,#eightimage{
+    height: 170px;
+    width: 340px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 180px;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+#foot{
+    padding-top: 50px;
+    height: 120px;
+    background-color: black;
+}
+#footertext{
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    font-weight: 900;
+    background-color: white;
+
+}
+li{
+    display: inline-block;
+    margin-left:80px;
+    margin-right:80px;
+
+
+}
+li:last-child{
+    position: relative;
+    left:150px;
+}
+#bknow:hover{
+    background-color: white;
+    border: #70e000 solid 2px;
+    color: #70e000;
+}
+.navlinks:hover{
+    color: #70e000;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top:0px;
+
+    
+} 
